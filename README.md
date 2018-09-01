@@ -11,9 +11,10 @@ Please contact me if there's any issues with my code.
 
 p.s if the wiimote disconnects after 1/2 a minute, it means that the raspberry pi's not getting enough power!
 
-Cwiid installation instructions:
+<br>
+<h2><b>Cwiid installation instructions:</b></h3>
 
-install dependences:
+<b>install dependences:</b>
 
     sudo apt-get install autotools-dev
     sudo apt-get install bison
@@ -22,17 +23,17 @@ install dependences:
     sudo apt-get install bluetooth
     sudo apt-get install bluez-utils
 
-download cwiid:
+<b>download cwiid:</b>
 
     sudo git clone https://github.com/azzra/python3-wiimote.git
     cd python3-wiimote
-setup cwiid:
+<b>setup cwiid:</b>
 
     sudo aclocal
     sudo autoconf
     sudo ./configure
     sudo make install
 
-Serial installation instructions:
+<b>Serial installation instructions:</b>
 
     sudo apt-get install python3-serial
