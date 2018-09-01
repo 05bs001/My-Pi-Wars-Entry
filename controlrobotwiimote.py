@@ -79,4 +79,4 @@ while True:
     #print('motor speeds {0}'.format(motorspeeds))
     
     # send motor speeds to motor controller
-    robot.value = motorspeeds
+    robot.value = motorspeeds[::-1]
