@@ -6,7 +6,9 @@ Feel free to use this code in your own projects, and good luck!
 Please contact me if there's any issues with my code.
 
 Cwiid installation instructions:
+
   install dependences:
+  
     sudo apt-get install autotools-dev
     sudo apt-get install bison
     sudo apt-get install flex
