@@ -7,23 +7,26 @@ Please contact me if there's any issues with my code.
 
 Cwiid installation instructions:
 
-  install dependences:
-  
+install dependences:
+
     sudo apt-get install autotools-dev
     sudo apt-get install bison
     sudo apt-get install flex
     sudo apt-get libcwiid-dev
     sudo apt-get install bluetooth
     sudo apt-get install bluez-utils
-  download cwiid:
+
+download cwiid:
+
     sudo git clone https://github.com/azzra/python3-wiimote.git
     cd python3-wiimote
-  setup cwiid:
+setup cwiid:
+
     sudo aclocal
     sudo autoconf
     sudo ./configure
     sudo make install
 
 Serial installation instructions:
-  sudo apt-get install python3-serial
-    
+
+    sudo apt-get install python3-serial
